@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.container {
+    width: 100%;
+    height: 950px;
+
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/배경이미지.jpg) no-repeat ;
+    background-size: cover;
+
+    color: aliceblue;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+
+    transition: 0.2s;
+}
+
+.logo:hover {
+    color: lightskyblue;
+}
+
+.menu {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-right: 100px;
+}
+
+.menu li {
+    font-size: 23px;
+}
+
+.menu li a:hover {
+    color: lightskyblue;
+}
+
+.menu li a {
+    transition: 0.2s;
+    color: aliceblue;
+}
+
+.intro {
+    width: 900px;
+    height: 500px;
+
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.intro h3 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.intro h5 {
+    font-size: 50px;
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro button {
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+
+    transition: 0.3s;
+}
+
+.intro button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.about{
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.about h5{
+    color: rgb(40, 20, 220);
+    font-size: 30px;
+}
+
+.about h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.about-contents{
+    height: 600px;
+    display: flex;
+}
+
+.about-contents .left{
+    width: 600px;
+    height: 600px;
+}
+
+.about-contents .right{
+    width: 600px;
+    height: 600px;
+
+    padding: 10px;
+}
+.about-contents .right h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 20, 220);
+
+    text-align: center;
+}
+.about-contents .right li{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3px;
+}
+.about img{
+    width: 600px;
+    height: 400px;
+
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.about img:hover{
+    opacity: 0.8;
+}
+.skills{
+    height: 800px;
+    background-color: rgb(255, 253, 235);
+    margin-top: 200px;padding-top: 100px;
+}
+.skills-inner{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+.skills h5{
+    color: rgb(40, 20, 220);
+    font-size: 30px;
+}
+
+.skills h1{
+    font-size: 50px;
+}
+.skills-contents{
+    width: 1200px;
+    height: 450px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skills-contents .box{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+    transition: 0.3s;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+}
+.skills-contents .box:hover{
+    background-color: rgb(53, 66, 250);
+    color: white;
+}
+.skills h4{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.skills p{
+    font-size: 16px;
+}
+.bg2{
+    height: 700px;
+    background: url(/자연1.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact{
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    
+}
+.contact h5{
+    color: rgb(40, 20, 220);
+    font-size: 30px;
+    
+}
+.contact h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+}
+.contact .contents{
+    width: 1200px;
+    height: 600px;
+
+    display: flex;
+    
+}
+.contact .contents .left{
+    width: 400px;
+    height: 600px;
+}
+.contact .contents .right{
+    width: 800px;
+    height: 600px;
+}
+.info{
+    width: 300px;
+    height: 90px;
+
+    border: 1px solid #ddd;
+    margin: 0 auto; 
+
+    padding-left: 20px;
+    padding-top: 15px;
+
+    margin-bottom: 20px;
+}
+.info h2{
+    font-size: 20px;
+}
+
+.info h6{
+    font-size: 15px;
+    font-weight: normal;
+}
+.contact .right{
+    width: 500px;
+    height: 600px;
+
+    border: 1px solid #ddd;
+}
+
+.btn-name,.btn-email{
+    width: 90%;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.btn-message{
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.contact .name,.contact .email,.contact .message{
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.send{
+    width: 90%;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 7px;
+
+    background-color: rgb(53, 66, 250);
+    color: white;
+
+    margin-top: 30px;
+}
+.contact-box{
+    height: 800px;
+    margin-top: 200px;
+    padding-top: 100px;
+}
